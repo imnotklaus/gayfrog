@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #121212;
+	color: white;
+	font-family: monospace;
+}
+
+h1 {
+	background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red, violet);   
+	-webkit-background-clip: text;
+	background-size:30% 30%;
+	color: transparent;
+}
+
+h2 {
+	text-align:center;
+}
+
+a {
+	color: #3399FF;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #7289DA;
+}
+
+::selection {
+	background-color: rgba(0,0,0,0);
+	color: #3399FF;
+}
+
+.nostyle {
+	text-decoration: none;
+	color:black;
+}
