@@ -28,6 +28,10 @@ a:hover {
 	color: #7289DA;
 }
 
+a::selection {
+	color: #7289DA;	
+}
+
 ::selection {
 	background-color: rgba(0,0,0,0);
 	color: #3399FF;
