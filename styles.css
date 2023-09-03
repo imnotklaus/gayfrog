@@ -7,25 +7,18 @@ body {
 	font-family: monospace;
 }
 
-/*h1 {
-	background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red, violet);   
-	-webkit-background-clip: text;
-	background-size:30% 30%;
-	color: transparent;
-}*/
-
 a {
-	color: #3399FF;
+	color: white;
 	text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
-	color: #7289DA;
+	text-decoration: none;
+	color: #3399FF;
 }
 
 a::selection {
-	color: #7289DA;	
+	color: #3399FF;	
 }
 
 ::selection {
