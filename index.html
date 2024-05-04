@@ -1,24 +1,47 @@
-<!DOCTYPE html>
-<html>
-	
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>cloud</title>
-<link rel="icon" type="image/x-icon" href="pepeLikesLGBT.png">
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cloud morgan clark</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-	
-	cloud
-	<br>
-	they/them
-	<br>
-	<a href="mailto:imnotklaus@pm.me">imnotklaus@pm.me</a>
-	<br>
-	<a href="https://discordapp.com/users/1000576001132220557">@imnotklaus</a>
-	<br>
-	<a href="https://youtu.be/iik25wqIuFo">?</a>
-	
+    <div id="viewbox" style="background-color: white;display: flex; justify-content: center; align-items: center; height: 100%; width: 100%;position: absolute; z-index: 6;
+    flex-direction: column;
+    bottom: -200%;scale: 0;
+    ">
+            <div style="
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            width: 80%;
+            ">
+                <img onclick="closeviewbvo()" src="close.svg" alt="">
+            </div>
+             <iframe width="80%" height="80%" id="viewboximg"
+                src="">
+            </iframe> 
+    </div>    
+    <div class="innerbody">
+        <div class="header">
+            <h1>cloud morgan clark</h1>
+            <div style="display: flex;gap: 10px ;justify-content: flex-end; align-items: center;">
+                <button onclick="contactonemail(`your email here`)">Email</button>
+                <button onclick="contactdiscord(`your contact discord link`)">Discord</button>
+            </div>
+        </div>
+        <!-- <hr style="color: rgba(255, 255, 255, 0.295);"> -->
+        <div class="midder">
+            <div class="projectcontroller" id="projectsle">
+            </div>
+            <div class="projector">
+               <h2  id="previewplaceholder"><strong>Hover</strong> on a project to <strong>Preview</strong>, <br> <strong>Click</strong> to <strong>View</strong></h2>
+                <img height="100%" width="100%" src="pexels-pixabay-159045.jpg" alt="" id="currentlyselectedpreview" hidden>
+            </div>
+        </div>
+    </div>
+    <h5  style="position: absolute; z-index: 150;bottom: 1%; right: 1%;">This website is created by <a href='https://discordapp.com/users/1207052900451360838'>Pushkar</a></h5>
 </body>
+<script src="main.js"></script>
 </html>
