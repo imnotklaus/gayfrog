@@ -1,0 +1,93 @@
+body {
+    font-family: 'Times New Roman', serif;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0;
+    padding: 0;
+    background-color: rgba(166, 166, 166, 0.275);
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Align items to the start and end of the header */
+    align-items: center;
+    padding: 5px 5px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 10px;
+    font-size: xx-large;
+    font-weight: normal;
+}
+
+header h1:hover {
+    cursor:pointer;
+}
+
+.header-links {
+    display: flex; /* Make the links a flex container */
+    align-items: center; /* Align items vertically */
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+    margin-left: 5px; /* Add margin between links */
+    margin-right: 10px;
+}
+
+.header-links a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.project {
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.project .name:hover {
+    text-decoration: underline;
+}
+
+.project-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project .date {
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    opacity: 50%;
+}
+
+.project .name {
+    flex-grow: 1;
+    vertical-align: text-bottom;
+}
+
+.dropdown-content {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .project-details {
+        flex-wrap: wrap;
+    }
+
+    .project .date {
+        margin-right: 30px;
+    }
+    .project .name {
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+}
