@@ -1,0 +1,46 @@
+body {
+	background: cyan;	
+}
+
+h1 { 
+	font-size: 3vw;
+	text-align: center;
+}
+
+p {
+	font-size: 1.2vw;
+}
+
+h2 {
+	font-size: 2vw;
+}
+
+h3 {
+	font-size: 1.5vw
+}
+
+li {
+	font-size: 1.2vw;	
+}
+
+@media screen and (max-width: 700px) {
+	h1 { 
+	font-size: 4vw;
+}
+
+p {
+	font-size: 2.5vw;
+}
+
+h2 {
+	font-size: 3vw;
+}
+
+h3 {
+	font-size: 2vw
+}
+
+li {
+	font-size: 2.5vw;	
+}
+}

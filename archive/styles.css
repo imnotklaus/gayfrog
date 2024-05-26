@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #202020;
+	color: white;
+	font-family: monospace;
+	line-height: 2;
+}
+
+/*h1 {
+	background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red, violet);   
+	-webkit-background-clip: text;
+	background-size:30% 30%;
+	color: transparent;
+}*/
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #3399FF;
+}
+
+a::selection {
+	color: #3399FF;	
+}
+
+::selection {
+	background-color: rgba(0,0,0,0);
+	color: #3399FF;
+}
+
+.nostyle {
+	text-decoration: none;
+	color:black;
+}
