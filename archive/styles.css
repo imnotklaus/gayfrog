@@ -2,9 +2,9 @@
 /* CSS Document */
 
 body {
-	background-color: #202020;
-	color: white;
-	font-family: monospace;
+	background-color: rgba(166, 166, 166, 0.275);
+	color: #000;
+	font-family: 'Times New Roman', Times, serif;
 	line-height: 2;
 }
 
