@@ -7,8 +7,8 @@ function toggleDropdown(id) {
     }
 }
 function showEmailConfirmation() {
-    var confirmation = confirm("Do you want to send an email to cloud@gayfrog.xyz?");
+    var confirmation = confirm("Do you want to send an email to cloud@cloudmorganclark.com?");
     if (confirmation) {
-        window.location.href = "mailto:cloud@gayfrog.xyz";
+        window.location.href = "mailto:cloud@cloudmorganclark.com";
     }
 }
